@@ -1,0 +1,53 @@
+.img-content{
+    width: 765px;
+    height: 400px;
+}
+
+.text-content{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 2500px) and (min-width: 1440px){
+    body{
+        background-color: brown;
+        color: white;
+        text-align: center;
+    }
+    .img-content{
+        width: 1300px; 
+        height: auto;
+    }
+    .text-content{
+        font-size: 25px;
+    }
+    .Title-content{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 790px){
+    .img-content{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .img-content{
+        width: 100%;
+        height: auto;
+    }
+    .Title-content{
+        text-align: center;
+    }
+    .text-content{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px){
+    .text-content{
+        font-size: 14px;
+    }
+}
